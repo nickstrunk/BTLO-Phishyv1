@@ -35,8 +35,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <h3>Q2) What is the full URL of the background image which is on the phishing landing page?</h3>
 <b>Inspect Landing Page</b> <br />
 ** Right Click web page > Open Image in New Tab >  URL for background image shown as new tab URL<br /> 
-** ANSWER TO Q2) hxxp[://]securedocument[.]net/secure/L0GIN/protected/login/portal/axCBhIt.png <br /> <br />
-<img src="" height="80%" width="80%" alt="Planning Diagram"/>
+** ANSWER TO Q2) hxxp[://]securedocument[.]net/secure/L0GIN/protected/login/portal/axCBhIt.png
 <br />
 <br />
 
@@ -45,7 +44,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 ** Right click web page > View Page Source <br /> 
 ** PHP script is called once credentials entered<br />
 ** ANSWER TO Q3) jeff.php <br /> <br />
-<img src="" height="80%" width="80%" alt="Planning Diagram"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/01e1461d-0c15-4020-b10c-67bd090cef99" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
 
