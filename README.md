@@ -23,12 +23,12 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <p align="center">
 
 <h3>Q1) The HTML page used on securedocument.net is a decoy. Where was this webpage mirrored from, and what tool was used? (Use the first part of the tool name only)</h3>
-<b>Investigate conversations </b> <br />
-** Looking for IP address scanning ports on another IP address <br />
-** Statistics > Conversations > TCP <br />
-** Sort on targets (B) port list - See port scanning from 10.251.96.4 <br /> 
-** ANSWER TO Q1) 10.251.96.4 <br /> <br />
-<img src="" height="80%" width="80%" alt="Planning Diagram"/>
+<b>Investigate Phishing Website </b> <br />
+** Looks to be an Office365 login <br />
+** Navigate to root of the URL securedocument.net <br />
+** View Page Source to view HTML > Comment showing that the site was mirrored<br /> 
+** ANSWER TO Q1) 61.221.12.26/cgi-sys/defaultwebpage.cgi, HTTrack <br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/32ddf935-1116-43f8-bf2e-41fa25b34601" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
 
