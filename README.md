@@ -41,10 +41,10 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <br />
 
 <h3>Q3) What is the name of the php page which will process the stolen credentials?</h3>
-<b>Filter for IP conducting the port scan</b> <br />
-** Filter for ip.src==10.251.96.4 <br /> 
-** Large number of SYN packets observed <br />
-** ANSWER TO Q2) TCP SYN scan <br /> <br />
+<b>Inspect Page Source</b> <br />
+** Right click web page > View Page Source <br /> 
+** PHP script is called once credentials entered<br />
+** ANSWER TO Q3) jeff.php <br /> <br />
 <img src="" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
