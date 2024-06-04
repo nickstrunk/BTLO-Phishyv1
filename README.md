@@ -33,9 +33,9 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <br />
 
 <h3>Q2) What is the full URL of the background image which is on the phishing landing page?</h3>
-<b>Sort on Port B both ways to see first and last port scanned</b> <br />
-** See the port range is 1-1024 <br /> 
-** ANSWER TO Q2) 1-1024 <br /> <br />
+<b>Inspect Landing Page</b> <br />
+** Right Click web page > Open Image in New Tab >  URL for background image shown as new tab URL<br /> 
+** ANSWER TO Q2) hxxp[://]securedocument[.]net/secure/L0GIN/protected/login/portal/axCBhIt.png <br /> <br />
 <img src="" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
