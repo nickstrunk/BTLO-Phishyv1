@@ -48,7 +48,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <br />
 <br />
 
-<h3>Q4)Two more tools were used to perform reconnaissance against open ports, what were they?</h3>
+<h3>Q4) What is the SHA256 of the phishing kit in ZIP format? (Provide the last 6 characters)</h3>
 <b>Investigate User Agent Strings</b> <br />
 ** Leave signature of the tool it is originating from <br /> 
 ** Filter ip.dst==10.251.96.5 && http.user_agent -all packets that have a user agent string to the target IP <br />
@@ -66,7 +66,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <br />
 <br />
 
-<h3>Q5)What is the name of the php file through which the attacker uploaded a web sheel?</h3>
+<h3>Q5) What email address is setup to recieve the phishing credential logs?</h3>
 <b>Investigate HTTP POST requets </b> <br />
 ** Filter for http.request.method==POST<br /> 
 ** Ignore sqlmap requests (SQL injection attempts) > Discover POST for /upload.php <br />
