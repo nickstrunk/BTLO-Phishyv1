@@ -49,17 +49,13 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <br />
 
 <h3>Q4) What is the SHA256 of the phishing kit in ZIP format? (Provide the last 6 characters)</h3>
-<b>Investigate User Agent Strings</b> <br />
-** Leave signature of the tool it is originating from <br /> 
-** Filter ip.dst==10.251.96.5 && http.user_agent -all packets that have a user agent string to the target IP <br />
-** Pattern of HTTP Get requests <br />
-** Inspect one of the suspicious requests > Shows gobuster 3.0.1 (brute forcing tool) <br /> <br />
-<img src="" height="80%" width="80%" alt="Planning Diagram"/>
+<b>Traverese Backwards Through URL</b> <br />
+** Inspect HTML of each directory > (/secure) References "0ff1cePh1sh.zip"<br /> 
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/e8f0bbc9-be91-4213-adb8-6ff6cc36c520" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
-** Search beyond gobuster packets > Discover pagckets with URL encoding and embedded SQL commands <br />
-** Inspect suspicious packets > Shows sqlmap 1.4.7 <br /> <br />
-<img src="" height="80%" width="80%" alt="Planning Diagram"/>
+**  Download the file from the web page directory where 0ff1cePh1sh.zip is referenced<br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/2dfbcb08-446f-478a-95a0-7f260971337e" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
 ** ANSWER TO Q4) gobuster 3.0.1, sqlmap 1.4.7
