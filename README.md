@@ -28,7 +28,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 ** Navigate to root of the URL securedocument.net <br />
 ** View Page Source to view HTML > Comment showing that the site was mirrored<br /> 
 ** ANSWER TO Q1) 61.221.12.26/cgi-sys/defaultwebpage.cgi, HTTrack <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/32ddf935-1116-43f8-bf2e-41fa25b34601" height="80%" width="80%" alt="Planning Diagram"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/32ddf935-1116-43f8-bf2e-41fa25b34601" height="80%" width="80%" alt="Webpage Source"/>
 <br />
 <br />
 
@@ -60,6 +60,8 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <br />
 ** Run sha256sum on 0ff1cePh1sh.zip <br /> <br />
 <img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/f7a65f14-4c54-4cf3-84a3-7f819e67853f" height="80%" width="80%" alt="Planning Diagram"/>
+<br />
+<br />
 ** ANSWER TO Q4) fa5b48 
 <br />
 <br />
