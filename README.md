@@ -66,7 +66,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <br />
 <br />
 
-<h3>Q5) What email address is setup to recieve the phishing credential logs?</h3>
+<h3>Q5) What email address is set up to recieve the phishing credential logs?</h3>
 <b>Investigate HTTP POST requets </b> <br />
 ** Filter for http.request.method==POST<br /> 
 ** Ignore sqlmap requests (SQL injection attempts) > Discover POST for /upload.php <br />
