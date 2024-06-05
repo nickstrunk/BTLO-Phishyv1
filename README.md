@@ -50,7 +50,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 
 <h3>Q4) What is the SHA256 of the phishing kit in ZIP format? (Provide the last 6 characters)</h3>
 <b>Traverese Backwards Through URL</b> <br />
-** Inspect HTML of each directory > (/secure) References "0ff1cePh1sh.zip"<br /> 
+** Inspect HTML of each directory > (/secure) References "0ff1cePh1sh.zip"<br /> <br />
 <img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/e8f0bbc9-be91-4213-adb8-6ff6cc36c520" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
@@ -58,17 +58,18 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/2dfbcb08-446f-478a-95a0-7f260971337e" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
-** ANSWER TO Q4) gobuster 3.0.1, sqlmap 1.4.7
+** Run sha256sum on 0ff1cePh1sh.zip <br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/f7a65f14-4c54-4cf3-84a3-7f819e67853f" height="80%" width="80%" alt="Planning Diagram"/>
+** ANSWER TO Q4) fa5b48 
 <br />
 <br />
 
 <h3>Q5) What email address is set up to recieve the phishing credential logs?</h3>
-<b>Investigate HTTP POST requets </b> <br />
-** Filter for http.request.method==POST<br /> 
-** Ignore sqlmap requests (SQL injection attempts) > Discover POST for /upload.php <br />
-** Inspect request > Find Refer (what file was uploaded) hxxp[://]10[.]251[.]96[.]5/editprofile.php <br />
-** ANSWER TO Q5) editprofile.php <br /> <br />
-<img src="https://github.com/nickstrunk/Network-Analysis-Web-Shell-Easy-/assets/165805194/7544f18a-cb02-47c9-b619-21187e2451bd" height="80%" width="80%" alt="Planning Diagram"/>
+<b>Investigate PHP File That Processes the Stolen Credentials </b> <br />
+** Click on jeff.php file that is referenced in the HTML of the web page <br /> 
+** Variable $recipient = "boris.smets@tfl-uk.co" <br />
+** ANSWER TO Q5) boris.smets@tfl-uk.co <br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/fc1b7cf2-29bf-4a85-9af5-960726a0c2c0" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
 </p>
