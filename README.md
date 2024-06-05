@@ -74,6 +74,27 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/fc1b7cf2-29bf-4a85-9af5-960726a0c2c0" height="80%" width="80%" alt="Planning Diagram"/>
 <br />
 <br />
+
+<h3>Q6) What is the function called to produce the PHP variable which appears in the index1.html URL?</h3>
+<b>Inspect URL </b> <br />
+** Observe /index1.html then Epoch timestamp appended <br /> 
+** Traverse backwards in URL to view-source:http://securedocument.net/secure/L0GIN/protected/login/portal/
+** Displayed is the function Date().getTime(); <br />
+** ANSWER TO Q5) Date().getTime(); <br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/b9c33a93-6951-43b2-a2e1-233cf9deb406" height="80%" width="80%" alt="PHP Variable Function"/>
+<br />
+<br />
+
+<h3>Q7) What is the domain of the website which should appear once credentials are entered?</h3>
+<b>Inspect URL </b> <br />
+** Observe /index1.html then Epoch timestamp appended <br /> 
+** Traverse backwards in URL to view-source:http://securedocument.net/secure/L0GIN/protected/login/portal/
+** Displayed is the function Date().getTime(); <br />
+** ANSWER TO Q5) Date().getTime(); <br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/b9c33a93-6951-43b2-a2e1-233cf9deb406" height="80%" width="80%" alt="PHP Variable Function"/>
+<br />
+<br />
+
 </p>
 
 <!--
