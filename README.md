@@ -80,7 +80,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 ** Observe /index1.html then Epoch timestamp appended <br /> 
 ** Traverse backwards in URL to view-source:http://securedocument.net/secure/L0GIN/protected/login/portal/ <br />
 ** Displayed is the function Date().getTime(); <br />
-** ANSWER TO Q5) Date().getTime(); <br /> <br />
+** ANSWER TO Q6) Date().getTime(); <br /> <br />
 <img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/b9c33a93-6951-43b2-a2e1-233cf9deb406" height="80%" width="80%" alt="PHP Variable Function"/>
 <br />
 <br />
@@ -89,8 +89,22 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <b>Inspect jeff.php </b> <br />
 ** Observe redirection domain <br /> 
 ** Displayed is the window.location <br />
-** ANSWER TO Q5) office.com <br /> <br />
+** ANSWER TO Q7) office.com <br /> <br />
 <img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/ab5e6e7f-ed08-4533-bb03-27ff0d8bfe6a" height="80%" width="80%" alt="PHP Variable Function"/>
+<br />
+<br />
+
+<h3>Q8) There is an error in this phishing kit. What variable name is wrong causing the phishing site to break? (Enter any of 4 potential answers)</h3>
+<b>Inspecting jeff.php and Page Source of Webpage</b> <br />
+** Observe HTML form on webpage > Variables are assigned email (userrr) and password (passss) <br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/820a66fc-6f44-4552-b13c-c73db16a6aab" height="80%" width="80%" alt="PHP Variable Function"/>
+<br />
+<br />
+** jeff.php expects variable names user1 (email) and pass1 (password) from submitted form <br /> <br />
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/a11c82db-ec3a-44d0-8b1d-4fd5f7c9c990" height="80%" width="80%" alt="PHP Variable Function"/>
+<br />
+<br />
+** ANSWER TO Q8) ANY OF THESE FOUR (userrr, passss, user1, pass1) <br /> <br />
 <br />
 <br />
 
