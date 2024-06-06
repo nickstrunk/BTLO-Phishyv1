@@ -28,7 +28,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 ** Navigate to root of the URL securedocument.net <br />
 ** View Page Source to view HTML > Comment showing that the site was mirrored<br /> 
 ** ANSWER TO Q1) 61.221.12.26/cgi-sys/defaultwebpage.cgi, HTTrack <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/32ddf935-1116-43f8-bf2e-41fa25b34601" height="80%" width="80%" alt="Webpage Source"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/32ddf935-1116-43f8-bf2e-41fa25b34601" height="80%" width="80%" alt="Root Webpage Source"/>
 <br />
 <br />
 
@@ -44,22 +44,22 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 ** Right click web page > View Page Source <br /> 
 ** PHP script is called once credentials entered<br />
 ** ANSWER TO Q3) jeff.php <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/01e1461d-0c15-4020-b10c-67bd090cef99" height="80%" width="80%" alt="Planning Diagram"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/01e1461d-0c15-4020-b10c-67bd090cef99" height="80%" width="80%" alt="Webpage Source"/>
 <br />
 <br />
 
 <h3>Q4) What is the SHA256 of the phishing kit in ZIP format? (Provide the last 6 characters)</h3>
 <b>Traverese Backwards Through URL</b> <br />
 ** Inspect HTML of each directory > (/secure) References "0ff1cePh1sh.zip"<br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/e8f0bbc9-be91-4213-adb8-6ff6cc36c520" height="80%" width="80%" alt="Planning Diagram"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/e8f0bbc9-be91-4213-adb8-6ff6cc36c520" height="80%" width="80%" alt="Webpage Source Referencing Zip File"/>
 <br />
 <br />
 **  Download the file from the web page directory where 0ff1cePh1sh.zip is referenced<br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/2dfbcb08-446f-478a-95a0-7f260971337e" height="80%" width="80%" alt="Planning Diagram"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/2dfbcb08-446f-478a-95a0-7f260971337e" height="80%" width="80%" alt="Webpage Directory Storing Zip File"/>
 <br />
 <br />
 ** Run sha256sum on 0ff1cePh1sh.zip <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/f7a65f14-4c54-4cf3-84a3-7f819e67853f" height="80%" width="80%" alt="Planning Diagram"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/f7a65f14-4c54-4cf3-84a3-7f819e67853f" height="80%" width="80%" alt="SHA256 on Zip File"/>
 <br />
 <br />
 ** ANSWER TO Q4) fa5b48 
@@ -71,7 +71,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 ** Click on jeff.php file that is referenced in the HTML of the web page <br /> 
 ** Variable $recipient = "boris.smets@tfl-uk.co" <br />
 ** ANSWER TO Q5) boris.smets@tfl-uk.co <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/fc1b7cf2-29bf-4a85-9af5-960726a0c2c0" height="80%" width="80%" alt="Planning Diagram"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/fc1b7cf2-29bf-4a85-9af5-960726a0c2c0" height="80%" width="80%" alt="PHP File"/>
 <br />
 <br />
 
@@ -81,7 +81,7 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 ** Traverse backwards in URL to view-source:http://securedocument.net/secure/L0GIN/protected/login/portal/ <br />
 ** Displayed is the function Date().getTime(); <br />
 ** ANSWER TO Q6) Date().getTime(); <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/b9c33a93-6951-43b2-a2e1-233cf9deb406" height="80%" width="80%" alt="PHP Variable Function"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/b9c33a93-6951-43b2-a2e1-233cf9deb406" height="80%" width="80%" alt="PHP File Function"/>
 <br />
 <br />
 
@@ -97,11 +97,11 @@ Warning: The website and kit you see is the lab is REAL. Exercise caution when i
 <h3>Q8) There is an error in this phishing kit. What variable name is wrong causing the phishing site to break? (Enter any of 4 potential answers)</h3>
 <b>Inspecting jeff.php and Page Source of Webpage</b> <br />
 ** Observe HTML form on webpage > Variables are assigned email (userrr) and password (passss) <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/820a66fc-6f44-4552-b13c-c73db16a6aab" height="80%" width="80%" alt="PHP Variable Function"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/820a66fc-6f44-4552-b13c-c73db16a6aab" height="80%" width="80%" alt="Webpage Source"/>
 <br />
 <br />
 ** jeff.php expects variable names user1 (email) and pass1 (password) from submitted form <br /> <br />
-<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/a11c82db-ec3a-44d0-8b1d-4fd5f7c9c990" height="80%" width="80%" alt="PHP Variable Function"/>
+<img src="https://github.com/nickstrunk/Phishyv1/assets/165805194/a11c82db-ec3a-44d0-8b1d-4fd5f7c9c990" height="80%" width="80%" alt="PHP File"/>
 <br />
 <br />
 ** ANSWER TO Q8) ANY OF THESE FOUR (userrr, passss, user1, pass1) <br /> <br />
